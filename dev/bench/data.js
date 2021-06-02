@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1619639305972,
-  "repoUrl": "https://github.com/OpenMined/SyMPC",
+  "lastUpdate": 1622624794854,
+  "repoUrl": "https://github.com/Boluwatifeh/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
       {
@@ -31,6 +31,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.13450106511594326",
             "extra": "mean: 3.8054739986000072 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anubhavraj.08@gmail.com",
+            "name": "Anubhav Raj Singh",
+            "username": "aanurraj"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "78d8539e1a923e09f0f8a4a3aee3a7c8293cca0e",
+          "message": "added  codecov (#205)\n\n* added  codecov\r\n\r\n* test new Job\r\n\r\n* test new Job\r\n\r\n* test new Job\r\n\r\n* test new Job\r\n\r\n* fixes\r\n\r\n* fixes\r\n\r\n* fixes\r\n\r\n* fixes\r\n\r\n* fixes\r\n\r\n* fixes\r\n\r\n* fixes\r\n\r\n* fixes\r\n\r\n* added secret key",
+          "timestamp": "2021-06-01T19:40:40+01:00",
+          "tree_id": "a3bea155ae472fbd413556b77afc77391953aaa3",
+          "url": "https://github.com/Boluwatifeh/SyMPC/commit/78d8539e1a923e09f0f8a4a3aee3a7c8293cca0e"
+        },
+        "date": 1622624793462,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.34173865817763177,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017385213972010663",
+            "extra": "mean: 2.9262126952000016 sec\nrounds: 5"
           }
         ]
       }
